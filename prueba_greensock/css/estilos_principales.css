@@ -1,0 +1,336 @@
+.form-control {
+    border: none;
+}
+.logo_header {
+    width: 6em;
+    height: auto;
+}
+.espacio_secciones_header {
+    margin-left: 5em;
+}
+.navbar-default {
+    padding: 2em;
+    padding-bottom: 0;
+    background-color: #fff;
+    border-color: transparent;
+    border: none;
+}
+.navbar-nav>li {
+    font-size: 1em;
+    font-weight: 600;
+}
+.section_1 {
+    background-color: #eff7fa;
+}
+.list_section_1 {
+    float: left;
+    margin: 0 1em;
+    font-size: 1.5em;
+    color: gray;
+}
+.list_section_1:hover {
+    color: #000;
+    cursor: pointer;
+}
+.container_1 {
+    padding: 2em;
+}
+.sub_container_1 {
+    text-align: left;
+}
+.sub_container_2 {
+    text-align: right;
+    font-size: 2.5em;
+    color: darkgray;
+}
+/*inicio animacion 1*/
+
+.animate_1 {
+    opacity: 0;
+    visibility: hidden;
+}
+/**Fin animacion 1**/
+
+* {
+    box-sizing: border-box;
+}
+.contenedor-producto {
+    width: 600px;
+    height: 550px;
+    margin: auto;
+}
+.imagen-principal {
+    width: 100%;
+    height: 400px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+[class *="subImagen-"] {
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 9em;
+    background-position: center;
+    cursor: pointer;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.myButton {
+    background-color: transparent;
+    border: 2px solid #bbc4d8;
+    display: inline-block;
+    cursor: pointer;
+    color: transparent;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 0px 16px 31px;
+    text-decoration: none;
+    text-shadow: -15px 0px 0px #000000;
+}
+.myButton:hover {
+    background-color: transparent;
+}
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+.text_section_2 {
+    color: gray;
+    font-size: 1.6em;
+    padding: 2em;
+}
+.text_section_2>b:hover {
+    color: #000;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+hr {
+    width: 80%;
+    height: 1px;
+    background-color: #d2caca;
+}
+.text_section_2_2 {
+    padding-left: 8em;
+    color: gray;
+    padding-top: 1em;
+    font-size: 1.2em;
+}
+.text_section_2_2>li {
+    margin-top: 1em;
+}
+.background_container_2 {
+    background-color: #e2f1f8;
+    width: 69%;
+    float: right;
+    margin-right: 8em;
+    height: 30em;
+}
+.imagen_colchon {
+    position: absolute;
+    left: -7em;
+    bottom: 0;
+    width: 80%;
+}
+/*]Inicio animation 2*/
+
+.text {
+    position: absolute;
+    width: 728px;
+    height: 90px;
+    color: white;
+    font-size: 39px;
+    background-color: grey;
+}
+/*.animate_2 .animate_3 {
+    overflow: hidden;
+}*/
+
+/*Fin animacion 2*/
+
+/*Inicio animacion 3*/
+
+.circlie {
+    background: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.fondo_estrellas {
+    background-color: #014b78;
+    padding: 1.8em;
+    background-image: url(../imagenes/section_3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    width: 90%;
+}
+/*Fin animacion 3*/
+
+.titulo_section_4 {
+    padding: 2em;
+    font-size: 2em;
+}
+.subtitulos_section_4>b {
+    font-size: 1.5em;
+    margin: 0 1em;
+}
+/*Inicio slider*/
+
+.col-item {
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.col-item .photo img {
+    margin: 0 auto;
+    width: 100%;
+}
+.col-item .info {
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+.col-item:hover .info {
+    background-color: #F5F5DC;
+}
+.col-item .price {
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+.col-item .price h5 {
+    line-height: 20px;
+    margin: 0;
+}
+.price-text-color {
+    color: #219FD1;
+}
+.col-item .info .rating {
+    color: #777;
+}
+.col-item .rating {
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+.col-item .separator {
+    border-top: 1px solid #E1E1E1;
+}
+.clear-left {
+    clear: left;
+}
+.col-item .separator p {
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+.col-item .separator p i {
+    margin-right: 5px;
+}
+.col-item .btn-add {
+    width: 50%;
+    float: left;
+}
+.col-item .btn-add {
+    border-right: 1px solid #E1E1E1;
+}
+.col-item .btn-details {
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.controls {
+    margin-top: 20px;
+}
+[data-slide="prev"] {
+    margin-right: 10px;
+}
+/*Fin Slider*/
+
+.iconos_redes_sociales_footer {
+    background-color: #fff;
+    color: #989898;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    display: inline-block;
+    text-align: center;
+}
+.iconos_redes_sociales {
+    background-color: #989898;
+    color: #ffffffba;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    margin-bottom: 1em;
+}
+.iconos_redes_sociales>i {
+    margin-top: 1em;
+}
+.div_scrolling {
+    overflow-y: auto;
+    height: 23em;
+}
+.titulos_footer {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-left: 2em;
+}
+.texto_footer {
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 2em;
+    color: #8882829e;
+    margin-bottom: 0;
+}
+.col-md-3>hr {
+    height: 0.2em;
+    background-color: #3bc0d2;
+    width: 80%;
+    margin: 0;
+}
+/*Arreglos responsive*/
+
+@media (max-width: 767px) {
+    .hidden-xs, tr.hidden-xs, th.hidden-xs, td.hidden-xs {
+        display: block !important;
+    }
+    .imagen_colchon {
+        bottom: initial;
+    }
+    .photo {
+        width: 50%;
+        float: left;
+    }
+    .iconos_redes_sociales {
+        display: inline-block;
+        margin-left: 3em;
+    }
+    .contenedor-producto {
+        height: auto;
+    }
+    [class *="subImagen-"] {
+        width: 20%;
+        display: inline-block;
+        margin-left: 1em;
+    }
+    .texto_footer {
+        text-align: center;
+    }
+    .titulos_footer {
+        text-align: center;
+    }
+    .col-md-3 {
+        text-align: center;
+    }
+}
